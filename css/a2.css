@@ -1,70 +1,95 @@
 body {
-    padding:25px;
+    font-family: sans-serif, 'Verdana';
+    background: rgba(226, 226, 226, 1);
 }
 
-footer {
-    margin-top:50px;
+.btn {
+    margin-top: 10px;
+    background-color: olivedrab;
 }
 
-.alert, .btn {
-    margin-top:10px;
+input[type='checkbox'],
+input[type='radio'] {
+    display: inline;
 }
 
-
-
-
-
-input[type='checkbox'], input[type='radio'] {
-    display:inline;
-}
-
-.centerText{
- 
+.centerText {
     text-align: center;
 }
 
 .centerElement {
-    
-   display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #required {
-    
- display: inline;
+    display: inline;
     color: darkred;
 }
 
-label:nth-child(even) {
-   background-color: #ddd;
-   display:block;
-}  
+fieldset:nth-child(even) {
+    background-color: #ddd;
+    display: block;
+}
 
-label:nth-child(odd) {
-   background-color: antiquewhite;
-   display:block;
-}  
+fieldset:nth-child(odd) {
+    background-color: antiquewhite;
+    display: block;
+}
+
 #gradeForm {
-   border: thin solid black; 
- width: 50%;
-float: left;
-    clear:left;
+    margin-left: 25%;
+    margin-top: 17vh;
+    margin-bottom: 2%;
+    border: thin solid black;
+    width: 50%;
     border-radius: .2em;
+    
 }
 
 #formHead {
-    
     background-image: url("../img/blue.jpg");
-    
+    margin:0;
+    padding:0;
 }
 
-#formBreak {
-    
-  background-image: url("../img/gold.jpg")  
+.formBreak {
+    background-image: url("../img/gold.jpg");
+         margin:0;
+    padding:0;
 }
 
 label {
+    padding: .5em;
+}
+
+#standardHead {
+    top: 0;
+    /*border-radius: .4em;*/
+    position: fixed;
+    width: 100%;
+    height: 15vh;
+    /*background:  #255E69;*/
+    background-image: url("../img/blue.jpg");
+}
+
+#standardHead h1 {
+    color: antiquewhite;
+    margin: .5em;
+    padding: .5em;
+    font-size: 2.5em;
+    font-family: 'Rye', cursive;
+}
+
+.hidden {
     
- padding: .5em;  
+ display:none;
+    
+}
+
+.help {
+    
+ color: darkred;
+    font-size: 1.2em;
 }
