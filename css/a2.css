@@ -1,0 +1,70 @@
+body {
+    padding:25px;
+}
+
+footer {
+    margin-top:50px;
+}
+
+.alert, .btn {
+    margin-top:10px;
+}
+
+
+
+
+
+input[type='checkbox'], input[type='radio'] {
+    display:inline;
+}
+
+.centerText{
+ 
+    text-align: center;
+}
+
+.centerElement {
+    
+   display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#required {
+    
+ display: inline;
+    color: darkred;
+}
+
+label:nth-child(even) {
+   background-color: #ddd;
+   display:block;
+}  
+
+label:nth-child(odd) {
+   background-color: antiquewhite;
+   display:block;
+}  
+#gradeForm {
+   border: thin solid black; 
+ width: 50%;
+float: left;
+    clear:left;
+    border-radius: .2em;
+}
+
+#formHead {
+    
+    background-image: url("../img/blue.jpg");
+    
+}
+
+#formBreak {
+    
+  background-image: url("../img/gold.jpg")  
+}
+
+label {
+    
+ padding: .5em;  
+}
