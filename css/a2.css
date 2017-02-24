@@ -94,12 +94,12 @@ label {
     margin-top: 17vh;
 }
 
-#rowOdd {
+.rowOdd {
     background-color: antiquewhite;
     display: block;
 }
 
-#rowEven {
+.rowEven {
     background-color: #ddd;
     display: block;
 }

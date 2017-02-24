@@ -329,39 +329,39 @@ require('calculateGrade.php');
 
                             <h2 class='centerText formBreak'>Grade Weights</h2>
 
-                            <div id="rowOdd" class="centerText bold">Lecture Quizzes =
+                            <div  class="centerText bold rowOdd">Lecture Quizzes =
                                 <?=$lecQuizWeight?>% of final grade</div>
-                            <div id="rowEven" class="centerText bold">A1 =
+                            <div  class="centerText bold rowEven">A1 =
                                 <?=$a1Weight?>% of final grade</div>
-                            <div id="rowOdd" class="centerText bold">A2 =
+                            <div  class="centerText bold rowOdd">A2 =
                                 <?=$a2Weight?>% of final grade</div>
-                            <div id="rowEven" class="centerText bold">A3 =
+                            <div  class="centerText bold rowEven">A3 =
                                 <?=$a3Weight?>% of final grade</div>
-                            <div id="rowOdd" class="centerText bold">Participation =
+                            <div  class="centerText bold rowOdd">Participation =
                                 <?=$partWeight?>% of final grade</div>
 
 
                             <h2 class='centerText formBreak'>Score For: <?=$name?> </h2>
 
-                            <div id="rowOdd" class="centerText bold">Your Lecture Quiz Score
+                            <div  class="centerText bold rowOdd">Your Lecture Quiz Score
                                 <br>
                                 <?=$lecQuizScore?>%</div>
-                            <div id="rowEven" class="centerText bold">Your A1 Score
+                            <div  class="centerText bold rowEven">Your A1 Score
                                 <br>
                                 <?=$a1Total?>%</div>
-                            <div id="rowOdd" class="centerText bold">Your A2 Score
+                            <div  class="centerText bold rowOdd">Your A2 Score
                                 <br>
                                 <?=$a2Total?>%</div>
-                            <div id="rowEven" class="centerText bold">Your A3 Score
+                            <div  class="centerText bold rowEven">Your A3 Score
                                 <br>
                                 <?=$a3Total?>%</div>
-                            <div id="rowOdd" class="centerText bold">Your A4 Score
+                            <div  class="centerText bold rowOdd">Your A4 Score
                                 <br>
                                 <?=$a4Total?>%</div>
-                            <div id="rowEven" class="centerText bold">Your Participation Score
+                            <div  class="centerText bold rowEven">Your Participation Score
                                 <br>
                                 <?=$partTotal?>%</div>
-                            <div id="rowOdd" class="centerText bold">Your Total Score
+                            <div  class="centerText bold rowOdd">Your Total Score
                                 <br>
                                 <?=$score?>%</div>
 
@@ -371,25 +371,25 @@ require('calculateGrade.php');
 
                                     <h2 class='centerText formBreak'>Score For: <?=$name?> </h2>
 
-                                    <div id="rowOdd" class="centerText bold">Your Lecture Quiz Score
+                                    <div  class="centerText bold rowOdd">Your Lecture Quiz Score
                                         <br>
                                         <?=$lecQuizScore?>%</div>
-                                    <div id="rowEven" class="centerText bold">Your A1 Score
+                                    <div  class="centerText bold rowEven">Your A1 Score
                                         <br>
                                         <?=$a1Total?>%</div>
-                                    <div id="rowOdd" class="centerText bold">Your A2 Score
+                                    <div  class="centerText bold rowOdd">Your A2 Score
                                         <br>
                                         <?=$a2Total?>%</div>
-                                    <div id="rowEven" class="centerText bold">Your A3 Score
+                                    <div  class="centerText bold rowEven">Your A3 Score
                                         <br>
                                         <?=$a3Total?>%</div>
-                                    <div id="rowOdd" class="centerText bold">Your A4 Score
+                                    <div  class="centerText bold rowOdd">Your A4 Score
                                         <br>
                                         <?=$a4Total?>%</div>
-                                    <div id="rowEven" class="centerText bold">Your Participation Score
+                                    <div  class="centerText bold rowEven">Your Participation Score
                                         <br>
                                         <?=$partTotal?>%</div>
-                                    <div id="rowOdd" class="centerText bold">Your Total Score
+                                    <div  class="centerText bold rowOdd">Your Total Score
                                         <br>
                                         <?=$score?>%</div>
 
