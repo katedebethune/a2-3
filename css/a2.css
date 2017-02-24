@@ -45,19 +45,18 @@ fieldset:nth-child(odd) {
     border: thin solid black;
     width: 50%;
     border-radius: .2em;
-    
 }
 
 #formHead {
     background-image: url("../img/blue.jpg");
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .formBreak {
     background-image: url("../img/gold.jpg");
-         margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 label {
@@ -83,13 +82,28 @@ label {
 }
 
 .hidden {
-    
- display:none;
-    
+    display: none;
 }
 
 .help {
-    
- color: darkred;
+    color: darkred;
     font-size: 1.2em;
+}
+
+#results {
+    margin-top: 17vh;
+}
+
+#rowOdd {
+    background-color: antiquewhite;
+    display: block;
+}
+
+#rowEven {
+    background-color: #ddd;
+    display: block;
+}
+
+.bold {
+    font-weight: bold;
 }

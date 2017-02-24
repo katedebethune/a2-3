@@ -235,6 +235,7 @@ class Form {
     private function max($value, $parameter) {
         return floatval($value) < floatval($parameter);
     }
+    
 
 
 } # end of class
