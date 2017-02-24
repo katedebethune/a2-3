@@ -26,7 +26,7 @@ require('calculateGrade.php');
                     <h2 class="centerText">Grade Calculator</h2>
                     <div id="formHead">
                         <h2 class="centerText">Grades for:</h2>
-                        <input type='text' class='centerElement centerText' name='name' id='name' ?>'>
+                        <input type='text' class='centerElement centerText' name='name' id='name'>
                         <div id="nameHelp" class="centerText help hidden">Enter your name **This field is required**</div>
                     </div>
                     <h2 class='centerText formBreak'>Lecture Quizzes</h2>
