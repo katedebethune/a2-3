@@ -62,7 +62,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec3Quiz">
                             Quiz 3:
                             <select name='lec3Quiz' id='lec3Quiz'>
                                 <option value="0">0</option>
@@ -78,7 +78,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec4Quiz">
                             Quiz 4:
                             <select name='lec4Quiz' id='lec4Quiz'>
                                 <option value="0">0</option>
@@ -96,7 +96,7 @@ require('calculateGrade.php');
                         </label>
                     </fieldset>
                     <fieldset class='centerText'>
-                        <label>Quiz 5:
+                        <label for = "lec5Quiz">Quiz 5:
                             <select name='lec5Quiz' id='lec5Quiz'>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -111,7 +111,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec6Quiz">
                             Quiz 6:
                             <select name='lec6Quiz' id='lec6Quiz'>
                                 <option value="0">0</option>
@@ -127,7 +127,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec7Quiz">
                             Quiz 7:
                             <select name='lec7Quiz' id='lec7Quiz'>
                                 <option value="0">0</option>
@@ -143,7 +143,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec8Quiz">
                             Quiz 8:
                             <select name='lec8Quiz' id='lec8Quiz'>
                                 <option value="0">0</option>
@@ -162,7 +162,7 @@ require('calculateGrade.php');
                     </fieldset>
 
                     <fieldset class='centerText'>
-                        <label>Quiz 9:
+                        <label for = "lec9Quiz">Quiz 9:
                             <select name='lec9Quiz' id='lec9Quiz'>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -177,7 +177,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec10Quiz">
                             Quiz 10:
                             <select name='lec10Quiz' id='lec10Quiz'>
                                 <option value="0">0</option>
@@ -193,7 +193,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec11Quiz">
                             Quiz 11:
                             <select name='lec11Quiz' id='lec11Quiz'>
                                 <option value="0">0</option>
@@ -209,7 +209,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec12Quiz">
                             Quiz 12:
                             <select name='lec12Quiz' id='lec12Quiz'>
                                 <option value="0">0</option>
@@ -228,7 +228,7 @@ require('calculateGrade.php');
                     </fieldset>
 
                     <fieldset class='centerText'>
-                        <label>Quiz 13:
+                        <label for = "lec13Quiz">Quiz 13:
                             <select name='lec13Quiz' id='lec13Quiz'>
                                 <option value="0">0</option>
                                 <option value="1">1</option>
@@ -243,7 +243,7 @@ require('calculateGrade.php');
                                 <option value="10">10</option>
                             </select>
                         </label>
-                        <label>
+                        <label for = "lec14Quiz">
                             Quiz 14:
                             <select name='lec14Quiz' id='lec14Quiz'>
                                 <option value="0">0</option>
@@ -263,44 +263,44 @@ require('calculateGrade.php');
                     <div id="lectureHelp" class="centerText help hidden">Select your lecture quiz grades from the dropdowns above.</div>
                     <h2 class='centerText formBreak'>Assignments</h2>
                     <fieldset>
-                        <label> A1:
+                        <label for = "a1"> A1:
                             <input type="text" name='a1' id='a1' value='<?=$form->prefill(' a1 ', '0 ')?>'>
                         </label>
-                        <label> Quiz:
-                            <input type="text" name='a1Quiz' id='a2Quiz' value='<?=$form->prefill(' a1Quiz ', '0 ')?>'>
+                        <label for = "a1Quiz"> Quiz:
+                            <input type="text" name='a1Quiz' id='a1Quiz' value='<?=$form->prefill(' a1Quiz ', '0 ')?>'>
                         </label>
                     </fieldset>
 
                     <fieldset>
-                        <label> A2:
+                        <label for = "a2"> A2:
                             <input type="text" name='a2' id='a2' value='<?=$form->prefill(' a2 ', '0 ')?>'>
                         </label>
-                        <label> Quiz:
+                        <label for = "a2Quiz"> Quiz:
                             <input type="text" name='a2Quiz' id='a2Quiz' value='<?=$form->prefill(' a2Quiz ', '0 ')?>'>
                         </label>
-                        <label> Peer Review:
+                        <label for = "a2Review"> Peer Review:
                             <input type="text" name='a2Review' id='a2Review' value='<?=$form->prefill(' a2Review ', '0 ')?>'>
                         </label>
                     </fieldset>
 
                     <fieldset>
-                        <label> A3:
+                        <label for = "a3"> A3:
                             <input type="text" name='a3' id='a3' value='<?=$form->prefill(' a3 ', '0 ')?>'> </label>
-                        <label> Quiz:
+                        <label for = "a3Quiz"> Quiz:
                             <input type="text" name='a3Quiz' id='a3Quiz' value='<?=$form->prefill(' a3Quiz ', '0 ')?>'>
                         </label>
-                        <label> Peer Review:
+                        <label for = "a3Review"> Peer Review:
                             <input type="text" name='a3Review' id='a3Review' value='<?=$form->prefill(' a3Review ', '0 ')?>'>
                         </label>
                     </fieldset>
 
                     <fieldset>
-                        <label> A4:
+                        <label for = "a4"> A4:
                             <input type="text" name='a4' id='a4' value='<?=$form->prefill(' a4 ', '0 ')?>'> </label>
-                        <label> Quiz:
+                        <label for = "a4Quiz"> Quiz:
                             <input type="text" name='a4Quiz' id='a4Quiz' value='<?=$form->prefill(' a4Quiz ', '0 ')?>'>
                         </label>
-                        <label> Peer Review:
+                        <label for = "a4Review"> Peer Review:
                             <input type="text" name='a4Review' id='a4Review' value='<?=$form->prefill(' a4Review ', '0 ')?>'>
                         </label>
                     </fieldset>
@@ -308,12 +308,12 @@ require('calculateGrade.php');
                     <div id="assignmentHelp" class="centerText help hidden">Enter your grades for each assignment. Each assignment is out of 100 i.e. 97 </div>
                     <h2 class='centerText formBreak'>Participation</h2>
                     <fieldset>
-                        <label> Participation:
+                        <label for = "participation"> Participation:
                             <input type="text" name='participation' id='participation' value='<?=$form->prefill(' participation ', '0 ')?>'>
                         </label>
                     </fieldset>
                     <fieldset>
-                        <label> Show Grading Parameters:
+                        <label for = "box"> Show Grading Parameters:
                             <input type="checkbox" name='box' id='box' <?php if($form->isChosen('box')) echo 'CHECKED' ?>>
                         </label>
                     </fieldset>
