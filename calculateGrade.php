@@ -123,6 +123,6 @@ if($form->isSubmitted()) {
     
     $score = $a1WeightedTot + $a2WeightedTot + $a3WeightedTot + $a4WeightedTot + $partWeightedTot + $lecWeightedTot;
     
-    $score = $score/$possible*100;
+    $score = round($score/$possible*100,2);
     
 }
